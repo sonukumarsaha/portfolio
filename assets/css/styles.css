@@ -412,7 +412,7 @@ img {
 /*=============== INFO ===============*/
 
 .info__container {
-  row-gap: 3rem;
+  row-gap: 2rem;
 }
 
 .info__title {
@@ -436,7 +436,7 @@ img {
 
 /* ABOUT */
 .about {
-  row-gap: 3rem;
+  row-gap: 2rem;
 }
 
 .about__description {
@@ -785,7 +785,7 @@ img {
   }
 
   .home__container {
-    grid-template-columns: repeat(2, 350px);
+    grid-template-columns: repeat(2, 320px);
   }
 
   .home__data {
@@ -799,15 +799,15 @@ img {
   }
 
   .work__container {
-    grid-template-columns: repeat(2, 350px);
+    grid-template-columns: repeat(2, 320px);
   }
 
   .info__container {
-    grid-template-columns: initial;
+    grid-template-columns: repeat(2, 320px);
   }
 
   .about {
-    grid-template-columns: repeat(2, 350px);
+    grid-template-columns: repeat(2, 320px);
     align-items: center;
   }
 
@@ -904,7 +904,9 @@ img {
   }
 
   .info__container {
-    row-gap: 4rem;
+    /* row-gap: 4rem; */
+    grid-template-columns: repeat(2, 350px);
+    gap: 6rem 13rem;
   }
 
   .info__title {
