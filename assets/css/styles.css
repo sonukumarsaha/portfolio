@@ -140,9 +140,9 @@ img {
   margin-bottom: 2rem;
 }
 
-.main {
+/* .main {
   overflow: hidden;
-}
+} */
 
 /*=============== HEADER & NAV ===============*/
 
@@ -411,8 +411,13 @@ img {
 
 /*=============== INFO ===============*/
 
+.info{
+  /* background-color: var(--container-color); */
+}
 .info__container {
+  /* row-gap: 2rem; */
   row-gap: 3rem;
+  /* margin: 2rem; */
 }
 
 .info__title {
@@ -439,6 +444,10 @@ img {
   row-gap: 3rem;
 }
 
+.about__content {
+  margin-right: 1rem;
+}
+
 .about__description {
   margin-bottom: 2rem;
   text-align: justify;
@@ -461,6 +470,7 @@ img {
 /* EXPERIENCE */
 .experience__content {
   row-gap: 2rem;
+  margin-right: 1rem;
 }
 
 .experience__data {
@@ -512,6 +522,7 @@ img {
   grid-template-columns: repeat(3, max-content);
   justify-content: space-around;
   align-items: flex-end;
+  margin-right: 1rem;
 }
 
 .skills__box {
@@ -528,7 +539,7 @@ img {
 /*=============== SERVICES ===============*/
 
 .services {
-  background-color: var(--container-color);
+  /* background-color: var(--container-color); */
 }
 
 .services__container {
@@ -751,6 +762,7 @@ img {
 
 
 /*=============== BREAKPOINTS ===============*/
+
 /* For small devices */
 @media screen and (max-width:300px) {
   .container {
@@ -958,7 +970,7 @@ img {
 
 
   .skills__content {
-    grid-template-columns: repeat(7, max-content);
+    grid-template-columns: repeat(6, max-content);
   }
 
   .services__container {
