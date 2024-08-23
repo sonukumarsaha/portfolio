@@ -411,9 +411,7 @@ img {
 
 /*=============== INFO ===============*/
 
-.info{
-  /* background-color: var(--container-color); */
-}
+
 .info__container {
   /* row-gap: 2rem; */
   row-gap: 3rem;
@@ -537,10 +535,6 @@ img {
 
 
 /*=============== SERVICES ===============*/
-
-.services {
-  /* background-color: var(--container-color); */
-}
 
 .services__container {
   row-gap: 2rem;
