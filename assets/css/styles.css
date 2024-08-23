@@ -412,7 +412,7 @@ img {
 /*=============== INFO ===============*/
 
 .info__container {
-  row-gap: 4rem;
+  row-gap: 3rem;
 }
 
 .info__title {
@@ -803,7 +803,8 @@ img {
   }
 
   .info__container {
-    grid-template-columns: repeat(2, 320px);
+    /* grid-template-columns: repeat(2, 320px); */
+    grid-template-columns: initial;
   }
 
   .about {
@@ -957,7 +958,7 @@ img {
 
 
   .skills__content {
-    grid-template-columns: repeat(6, max-content);
+    grid-template-columns: repeat(7, max-content);
   }
 
   .services__container {
