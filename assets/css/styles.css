@@ -679,6 +679,7 @@ img {
   /* font-weight: var(--font-semi-bold); */
   /* font-weight: normal; */
   color: var(--title-color);
+  display: none;
 }
 
 /*=============== FOOTER ===============*/
